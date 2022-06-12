@@ -17,7 +17,7 @@ cloudinary.config({
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://harshadfood.vercel.app/"],
+    origin: ["https://harshadfood.vercel.app"],
     credentials: true,
   })
 );
